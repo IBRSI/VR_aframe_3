@@ -15,8 +15,7 @@
       
       <a-sphere position="0 2 -5" rotation="0 0 0" radius="0.5" src="#boxTexture">
         <a-animation attribute="rotation" begin="click" dur="2000" to="360 405 45"></a-animation>
-        <a-animation attribute="radius" begin="click" dur="2000" to="1"></a-animation>
-        <a-animation attribute="radius" begin="cursor-fusing" dur="1000" to="0.5"></a-animation>
+        <a-animation attribute="radius" begin="click" direction="alternate" to="1" dur="2000"></a-animation>
         <a-animation attribute="position" to="0 2.2 -5" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
       </a-sphere>
       
