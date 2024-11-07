@@ -13,9 +13,9 @@
         <img id="skyTexture" src="https://cdn.aframe.io/a-painter/images/sky.jpg">
       </a-assets>
       
-      <a-sphere position="0 2 -5" rotation="0 0 0" radius="1" src="#boxTexture">
+      <a-sphere position="0 2 -5" rotation="0 0 0" radius="0.5" src="#boxTexture">
         <a-animation attribute="rotation" begin="click" dur="2000" to="360 405 45"></a-animation>
-        <a-animation attribute="radius" begin="click" dur="2000" to="1.5"></a-animation>
+        <a-animation attribute="radius" begin="click" dur="2000" to="1" to="0.5"></a-animation>
         <a-animation attribute="scale" begin="mouseenter" dur="300" to="2.3 2.3 2.3"></a-animation>
         <a-animation attribute="scale" begin="mouseleave" dur="300" to="2 2 2"></a-animation>
       </a-sphere>
